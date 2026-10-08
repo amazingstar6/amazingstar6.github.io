@@ -22,6 +22,15 @@
   gap: 12px;
 }
 
+.sidebar a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: var(--accent);
+}
+
 .main {
   margin-left: 120px;
   padding: 40px;

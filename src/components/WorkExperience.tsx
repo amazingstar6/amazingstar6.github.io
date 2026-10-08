@@ -3,8 +3,8 @@ function WorkExperience() {
         <div>
             <h2 id="work-experience">Work experience</h2>
             <div className="row">
-                <strong>April 2025 - July 2025<br></br>September 2026 - present</strong>
-                <strong>Teaching Assistant (University of Twente)<br></br>Teaching Assistant (TU Delft)</strong>
+                <strong>Teaching Assistant (TU Delft)<br></br>Teaching Assistant (University of Twente)</strong>
+                <strong>September 2026 - present<br></br>April 2025 - July 2025</strong>
             </div>
             <ul>
                 <li>

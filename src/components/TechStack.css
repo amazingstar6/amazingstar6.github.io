@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 150px);
-  gap: 20px;
+  gap: 1em;
 }
 
 .grid-item {
