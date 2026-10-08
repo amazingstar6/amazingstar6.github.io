@@ -14,26 +14,32 @@ function TechStack() {
       <div className="grid">
         <div className="grid-item">
           <img src={javaIcon} alt="Java" />
+          <br></br>
           Java
         </div>
         <div className="grid-item">
           <img src={pythonIcon} alt="Python" />
+          <br></br>
           <p>Python</p>
         </div>
         <div className="grid-item">
           <img src={kotlinIcon} alt="Kotlin" />
+          <br></br>
           Kotlin
         </div>
         <div className="grid-item">
           <img src={cppIcon} alt="C++" />
+          <br></br>
           C++
         </div>
         <div className="grid-item">
           <img src={javascriptIcon} alt="JavaScript" />
+          <br></br>
           JavaScript
         </div>
         <div className="grid-item">
           <img src={typescriptIcon} alt="TypeScript" />
+          <br></br>
           TypeScript
         </div>
         <div className="grid-item">
