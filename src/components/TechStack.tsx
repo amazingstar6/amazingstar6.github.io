@@ -1,4 +1,11 @@
 import './TechStack.css'
+import cppIcon from '../assets/tech-stack-icons/c++.svg'
+import javaIcon from '../assets/tech-stack-icons/java.svg'
+import javascriptIcon from '../assets/tech-stack-icons/javascript.svg'
+import kotlinIcon from '../assets/tech-stack-icons/kotlin.svg'
+import pythonIcon from '../assets/tech-stack-icons/python.svg'
+import rustIcon from '../assets/tech-stack-icons/rust.svg'
+import typescriptIcon from '../assets/tech-stack-icons/typescript.svg'
 
 function TechStack() {
   return (
@@ -6,31 +13,31 @@ function TechStack() {
       <h2>Tech stack</h2>
       <div className="grid">
         <div className="grid-item">
-          <img src="./assets/tech-stack-icons/java.svg"></img>
+          <img src={javaIcon} alt="Java" />
           Java
         </div>
         <div className="grid-item">
-          <img src="./assets/tech-stack-icons/python.svg"></img>
+          <img src={pythonIcon} alt="Python" />
           <p>Python</p>
         </div>
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\kotlin.svg"></img>
+          <img src={kotlinIcon} alt="Kotlin" />
           Kotlin
         </div>
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\c++.svg"></img>
+          <img src={cppIcon} alt="C++" />
           C++
         </div>
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\javascript.svg"></img>
+          <img src={javascriptIcon} alt="JavaScript" />
           JavaScript
         </div>
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\typescript.svg"></img>
+          <img src={typescriptIcon} alt="TypeScript" />
           TypeScript
         </div>
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\rust.svg"></img>
+          <img src={rustIcon} alt="Rust" />
           Rust
         </div>
       </div>
