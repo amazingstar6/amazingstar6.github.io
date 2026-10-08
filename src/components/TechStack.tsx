@@ -6,11 +6,11 @@ function TechStack() {
       <h2>Tech stack</h2>
       <div className="grid">
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\java.svg"></img>
+          <img src="./assets/tech-stack-icons/java.svg"></img>
           Java
         </div>
         <div className="grid-item">
-          <img src="src\assets\tech-stack-icons\python.svg"></img>
+          <img src="./assets/tech-stack-icons/python.svg"></img>
           <p>Python</p>
         </div>
         <div className="grid-item">
